@@ -4,7 +4,7 @@ function Book(props) {
     
     return (
         <article className="book">
-            <img src={props.book.img} />
+            <img src={props.book.img} alt="bookImage" />
             <h4>{props.book.title} </h4>
             <label>Price:</label><label className='price'>{props.book.price} &#8377;</label>
         </article>
