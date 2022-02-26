@@ -37,6 +37,7 @@ function BookList() {
         return book.title.toLowerCase().startsWith(searchWord.toLowerCase());
 
     });
+    console.log(filteredBook);
 
     return (
         <>
