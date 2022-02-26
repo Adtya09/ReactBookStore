@@ -35,3 +35,15 @@ body{
 .book .price{
   color: red;
 }
+
+.searchBar{
+  position:absolute;
+  left:30%;
+  top:5%;
+  width:40%;
+  height: 5%;
+  background-color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  padding: 2px 1px;
+  
+}
